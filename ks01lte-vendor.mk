@@ -7,9 +7,15 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/samsung/ks01lte/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
     vendor/samsung/ks01lte/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
+    vendor/samsung/ks01lte/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
     vendor/samsung/ks01lte/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/samsung/ks01lte/proprietary/vendor/bin/qcks:$(TARGET_COPY_OUT_VENDOR)/bin/qcks \
+    vendor/samsung/ks01lte/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/samsung/ks01lte/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
+    vendor/samsung/ks01lte/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
+    vendor/samsung/ks01lte/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/samsung/ks01lte/proprietary/vendor/bin/sensorhubservice:$(TARGET_COPY_OUT_VENDOR)/bin/sensorhubservice \
     vendor/samsung/ks01lte/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/ks01lte/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
@@ -187,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libchromatix_s5k6b2yx_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libchromatix_s5k6b2yx_zslshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k6b2yx_zslshot.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libliveframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libliveframework.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libmmcamera_cac2_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac2_lib.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libmmcamera_fidelix_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_fidelix_eeprom.so \
@@ -197,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsam.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsensirion_ks01_eur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_ks01_eur.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhub.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsensorhubcontext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorhubcontext.so \
@@ -259,15 +267,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libchromatix_imx135_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx135_vt_hd.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_vt.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l2xx_vt_hd.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libdrmdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmdiag.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgeofence.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblbs_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libldacBT_abr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_abr.so \
@@ -290,11 +302,21 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libmmcamera_imx135.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx135.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/liboemcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcamera.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqcgesture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcgesture.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqcsyncgesture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcsyncgesture.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
+    vendor/samsung/ks01lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsc-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsc-a3xx.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscale.so \
@@ -314,29 +336,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so
-
-# M libsec-ril blobs
-PRODUCT_COPY_FILES += \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/qcks:$(TARGET_COPY_OUT_VENDOR)/bin/qcks \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libprotobuf-cpp-full-v23.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-v23.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnetmgr.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so
