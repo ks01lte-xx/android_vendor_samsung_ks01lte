@@ -6,7 +6,7 @@ boardtype=0x064d
 boardflags=0x10401001
 boardflags2=0x0
 boardflags3=0x4
-#boardnum=57410
+#boardnum=57410 
 #(Serial Number)
 macaddr=00:90:4c:c5:12:38()
 ccode=ALL
