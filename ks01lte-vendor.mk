@@ -45,12 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_semco3rd:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_semco3rd \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_semcosh:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_semcosh \
+    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_semcosh:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_semco \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_murata_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_semco3rd:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_semco3rd \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_semcosh:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_semcosh \
+    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_semcosh:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_semco \
     vendor/samsung/ks01lte/proprietary/vendor/lib/C13QL_libTsAe.so:$(TARGET_COPY_OUT_VENDOR)/lib/C13QL_libTsAe.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/C13QL_libTsAf.so:$(TARGET_COPY_OUT_VENDOR)/lib/C13QL_libTsAf.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/C13QL_libTs_J_Accm.so:$(TARGET_COPY_OUT_VENDOR)/lib/C13QL_libTs_J_Accm.so \
