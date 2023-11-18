@@ -7,7 +7,7 @@ boardtype=0x064d
 boardflags=0x10401001
 boardflags2=0x0
 boardflags3=0xc48c
-#boardnum=57410 
+#boardnum=57410
 macaddr=00:90:4c:c5:12:38()
 ccode=GB
 regrev=48
@@ -59,7 +59,7 @@ pa5ga2=0xFF59,0x172C,0xFD34,0xFF41,0x157D,0xFD4F,0xFF45,0x1449,0xFD81,0xFF3A,0x1
 #pdoffset80ma0=0x0000
 #pdoffsetcckma0=0x8000
 
-#Target Pwr 
+#Target Pwr
 #2G - 19dBm(11)/18dBm(6,M0)/16dBm(54)/15dBm(M7)/15dBm(C8,C9)
 maxp2ga0=86
 cckbw202gpo=0
@@ -68,7 +68,7 @@ dot11agofdmhrbw202gpo=0x6666
 ofdmlrbw202gpo=0x0022
 mcsbw202gpo=0x88866662
 
-#Target Pwr 
+#Target Pwr
 #5G 20M - 16dBm(M0,6M)14dBm(54)/13dBm(M7)/13dBm(C8/C9)
 #5G 40M - 15dBm(M0) 12dBm(M7)/12dBm(C8/C9)
 #5G 80M - 14dBm(M0) 11dBm(C8/C9)
