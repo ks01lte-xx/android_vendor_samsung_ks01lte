@@ -6,16 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/ks01lte
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/efsks:$(TARGET_COPY_OUT_VENDOR)/bin/efsks \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/ks:$(TARGET_COPY_OUT_VENDOR)/bin/ks \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/qcks:$(TARGET_COPY_OUT_VENDOR)/bin/qcks \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/rfs_access:$(TARGET_COPY_OUT_VENDOR)/bin/rfs_access \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/ks01lte/proprietary/vendor/cameradata/datapattern_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_420sp.yuv \
     vendor/samsung/ks01lte/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:$(TARGET_COPY_OUT_VENDOR)/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/ks01lte/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
@@ -201,13 +191,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsam.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libsensirion_ks01_eur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensirion_ks01_eur.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
     vendor/samsung/ks01lte/proprietary/system_ext/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaptXHD_encoder.so \
     vendor/samsung/ks01lte/proprietary/system_ext/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libaptX_encoder.so \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/mpdecision:$(TARGET_COPY_OUT_VENDOR)/bin/mpdecision \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
-    vendor/samsung/ks01lte/proprietary/vendor/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata1 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
@@ -322,12 +308,28 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalclient.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalioctl.so \
-    vendor/samsung/ks01lte/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/samsung/ks01lte/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so
+
+PRODUCT_PACKAGES += \
+    libsensirion_ks01_eur \
+    libtime_genoff \
+    libthermalioctl \
+    libthermalclient \
+    thermal-engine \
+    mpdecision \
+    mm-qcamera-daemon \
+    adsprpcd \
+    efsks \
+    irsc_util \
+    ks \
+    qcks \
+    qseecomd \
+    rfs_access \
+    rmt_storage \
+    netmgrd \
+    qmuxd
