@@ -24,26 +24,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/ks01lte/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
     vendor/samsung/ks01lte/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_ibss.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_ibss.bin \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_a0 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_a0 \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata_a0 \
+    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_semco3rd:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_semco3rd \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_semco:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_semco \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a0 \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_murata_a0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_a0 \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_semco3rd:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_semco3rd \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_semco:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_semco \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt_murata1 \
     vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
-    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_murata1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata1 \
+    vendor/samsung/ks01lte/proprietary/vendor/etc/wifi/nvram_net.txt_semco3rd:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/ks01lte/proprietary/vendor/firmware/a330_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pfp.fw \
     vendor/samsung/ks01lte/proprietary/vendor/firmware/a330_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a330_pm4.fw \
     vendor/samsung/ks01lte/proprietary/vendor/firmware/bcm4335B0_002.001.006.0191.0201_ORC.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4335B0_002.001.006.0191.0201_ORC.hcd
@@ -70,6 +61,8 @@ PRODUCT_PACKAGES += \
     C13QL_libchromatix_s5k3l2xx_preview \
     C13QL_libchromatix_s5k3l2xx_snapshot \
     C13QL_libchromatix_s5k3l2xx_uhd_video \
+    C13QL_libchromatix_s5k3l2xx_vt \
+    C13QL_libchromatix_s5k3l2xx_vt_hd \
     C13QL_libchromatix_s5k3l2xx_zslshot \
     C13QS_libTsAe \
     C13QS_libTsAf \
@@ -92,11 +85,15 @@ PRODUCT_PACKAGES += \
     C13QS_libchromatix_imx135_preview \
     C13QS_libchromatix_imx135_snapshot \
     C13QS_libchromatix_imx135_uhd_video \
+    C13QS_libchromatix_imx135_vt \
+    C13QS_libchromatix_imx135_vt_hd \
     C13QS_libchromatix_imx135_zslshot \
     D13QL_libTsAe \
     D13QL_libTsAf \
     D13QL_libTs_J_Accm \
     D13QL_libTs_J_Awb \
+    D13QL_libchromatix_s5k3l2xx_vt \
+    D13QL_libchromatix_s5k3l2xx_vt_hd \
     D13QS_libTsAe \
     D13QS_libTsAf \
     D13QS_libTs_J_Accm \
@@ -118,14 +115,49 @@ PRODUCT_PACKAGES += \
     D13QS_libchromatix_imx135_preview \
     D13QS_libchromatix_imx135_snapshot \
     D13QS_libchromatix_imx135_uhd_video \
+    D13QS_libchromatix_imx135_vt \
+    D13QS_libchromatix_imx135_vt_hd \
     D13QS_libchromatix_imx135_zslshot \
+    eglsubAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libq3dtools_adreno \
     camera.vendor.msm8974 \
+    flp.default \
     sensors.vendor.msm8974 \
+    libC2D2 \
+    libCB \
+    libOmxAacDec \
+    libOmxAmrwbplusDec \
+    libOmxEvrcDec \
+    libOmxQcelp13Dec \
+    libOmxWmaDec \
+    libOpenCL \
+    libQSEEComAPI \
     libTsAe \
     libTsAf \
     libTs_J_Accm \
     libTs_J_Awb \
+    libacdbloader \
+    libacdbmapper \
+    libacdbrtac \
+    libactuator_ak7345_camcorder \
+    libactuator_ak7345_camera \
+    libactuator_dw9714_camcorder \
+    libactuator_dw9714_camera \
+    libactuator_dw9716_camcorder \
+    libactuator_dw9716_camera \
+    libactuator_wv560_camcorder \
+    libactuator_wv560_camera \
+    libadiertac \
+    libadreno_utils \
+    libadsprpc \
     libarcsoft_nighthawk \
+    libaudcal \
+    libaudioalsa \
+    libbccQTI \
+    libc2d30-a3xx \
     libchromatix_imx134_common \
     libchromatix_imx134_common_720p_b \
     libchromatix_imx134_common_720p_s \
@@ -143,6 +175,8 @@ PRODUCT_PACKAGES += \
     libchromatix_imx134_pip \
     libchromatix_imx134_preview \
     libchromatix_imx134_snapshot \
+    libchromatix_imx134_vt \
+    libchromatix_imx134_vt_hd \
     libchromatix_imx134_zslshot \
     libchromatix_imx135_common \
     libchromatix_imx135_common_1080p_b \
@@ -161,6 +195,8 @@ PRODUCT_PACKAGES += \
     libchromatix_imx135_preview \
     libchromatix_imx135_snapshot \
     libchromatix_imx135_uhd_video \
+    libchromatix_imx135_vt \
+    libchromatix_imx135_vt_hd \
     libchromatix_imx135_zslshot \
     libchromatix_s5k3l2xx_common \
     libchromatix_s5k3l2xx_common_1080p_b \
@@ -179,6 +215,8 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k3l2xx_preview \
     libchromatix_s5k3l2xx_snapshot \
     libchromatix_s5k3l2xx_uhd_video \
+    libchromatix_s5k3l2xx_vt \
+    libchromatix_s5k3l2xx_vt_hd \
     libchromatix_s5k3l2xx_zslshot \
     libchromatix_s5k6b2yx_common \
     libchromatix_s5k6b2yx_default_video \
@@ -188,68 +226,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k6b2yx_vt \
     libchromatix_s5k6b2yx_vt_hd \
     libchromatix_s5k6b2yx_zslshot \
-    libliveframework \
-    libmdmdetect \
-    libmmcamera2_stats_algorithm \
-    libmmcamera_cac2_lib \
-    libmmcamera_fidelix_eeprom \
-    libmmcamera_interface \
-    libmmcamera_s5k6b2yx \
-    libmmjpeg_interface \
-    libmmqjpeg_codec \
-    libqomx_core \
-    libqomx_jpegenc \
-    libsam \
-    libsec-ril \
-    libsensirion_ks01_eur \
-    libvdis \
-    C13QL_libchromatix_s5k3l2xx_vt \
-    C13QL_libchromatix_s5k3l2xx_vt_hd \
-    C13QS_libchromatix_imx135_vt \
-    C13QS_libchromatix_imx135_vt_hd \
-    D13QL_libchromatix_s5k3l2xx_vt \
-    D13QL_libchromatix_s5k3l2xx_vt_hd \
-    D13QS_libchromatix_imx135_vt \
-    D13QS_libchromatix_imx135_vt_hd \
-    eglsubAndroid \
-    libEGL_adreno \
-    libGLESv1_CM_adreno \
-    libGLESv2_adreno \
-    libq3dtools_adreno \
-    flp.default \
-    libC2D2 \
-    libCB \
-    libOmxAacDec \
-    libOmxAmrwbplusDec \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
-    libOpenCL \
-    libQSEEComAPI \
-    libacdbloader \
-    libacdbmapper \
-    libacdbrtac \
-    libactuator_ak7345_camcorder \
-    libactuator_ak7345_camera \
-    libactuator_dw9714_camcorder \
-    libactuator_dw9714_camera \
-    libactuator_dw9716_camcorder \
-    libactuator_dw9716_camera \
-    libactuator_wv560_camcorder \
-    libactuator_wv560_camera \
-    libadiertac \
-    libadreno_utils \
-    libadsprpc \
-    libaudcal \
-    libaudioalsa \
-    libbccQTI \
-    libc2d30-a3xx \
-    libchromatix_imx134_vt \
-    libchromatix_imx134_vt_hd \
-    libchromatix_imx135_vt \
-    libchromatix_imx135_vt_hd \
-    libchromatix_s5k3l2xx_vt \
-    libchromatix_s5k3l2xx_vt_hd \
     libconfigdb \
     libdiag \
     libdrmdiag \
@@ -265,9 +241,11 @@ PRODUCT_PACKAGES += \
     libidl \
     libizat_core \
     liblbs_core \
+    libliveframework \
     libllvm-qcom \
     libloc_api_v02 \
     libloc_ds_api \
+    libmdmdetect \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
     libmmcamera2_iface_modules \
@@ -275,20 +253,25 @@ PRODUCT_PACKAGES += \
     libmmcamera2_isp_modules \
     libmmcamera2_pproc_modules \
     libmmcamera2_sensor_modules \
+    libmmcamera2_stats_algorithm \
     libmmcamera2_stats_modules \
     libmmcamera2_vpe_module \
     libmmcamera2_wnr_module \
+    libmmcamera_cac2_lib \
     libmmcamera_faceproc \
+    libmmcamera_fidelix_eeprom \
     libmmcamera_image_stab \
     libmmcamera_imglib \
     libmmcamera_imx135 \
+    libmmcamera_interface \
+    libmmcamera_s5k6b2yx \
     libmmjpeg \
+    libmmjpeg_interface \
+    libmmqjpeg_codec \
     libnetmgr \
     liboemcamera \
     libperipheral_client \
     libqcci_legacy \
-    libqcgesture \
-    libqcsyncgesture \
     libqdi \
     libqmi \
     libqmi_cci \
@@ -297,24 +280,24 @@ PRODUCT_PACKAGES += \
     libqmi_csi \
     libqmi_encdec \
     libqmiservices \
+    libqomx_core \
+    libqomx_jpegenc \
     libril-qcril-hook-oem \
     librpmb \
+    libsam \
     libsc-a3xx \
     libscale \
-    libscve \
-    libscve_stub \
+    libsec-ril \
+    libsensirion_ks01_eur \
     libsensor1 \
     libssd \
     libstlport \
     libthermalclient \
     libthermalioctl \
     libtime_genoff \
+    libvdis \
     libxml \
     libwvdrmengine \
-    libdspCV_skel \
-    libfastcvadsp \
-    libfastcvadsp_skel \
-    libscveT2T_skel \
     libaptXHD_encoder \
     libaptX_encoder \
     adsprpcd \
@@ -322,10 +305,10 @@ PRODUCT_PACKAGES += \
     irsc_util \
     ks \
     mm-qcamera-daemon \
+    mpdecision \
     qcks \
     qmuxd \
     qseecomd \
     rfs_access \
     rmt_storage \
-    thermal-engine \
-    mpdecision
+    thermal-engine
