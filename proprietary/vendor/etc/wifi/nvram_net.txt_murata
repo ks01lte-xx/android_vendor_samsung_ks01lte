@@ -12,10 +12,10 @@ boardflags3=0x0800c08b
 macaddr=00:90:4c:c5:12:38
 #ccode modified by Samsung
 #ccode=0
-ccode=GB
+ccode=00
 #regrev modified by Samsung
 #regrev=0
-regrev=48
+regrev=6
 antswitch=0
 pdgain5g=1
 pdgain2g=1
