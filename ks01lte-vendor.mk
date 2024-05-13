@@ -141,7 +141,6 @@ PRODUCT_PACKAGES += \
     libTs_J_Accm \
     libTs_J_Awb \
     libacdbloader \
-    libacdbmapper \
     libacdbrtac \
     libactuator_ak7345_camcorder \
     libactuator_ak7345_camera \
@@ -156,7 +155,6 @@ PRODUCT_PACKAGES += \
     libadsprpc \
     libarcsoft_nighthawk \
     libaudcal \
-    libaudioalsa \
     libbccQTI \
     libc2d30-a3xx \
     libchromatix_imx134_common \
