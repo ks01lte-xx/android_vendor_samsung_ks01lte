@@ -14,7 +14,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libTsAe.so"],
 		},
 	},
@@ -31,7 +31,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libTsAf.so"],
 		},
 	},
@@ -48,7 +48,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libTs_J_Accm.so"],
 		},
 	},
@@ -65,7 +65,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libTs_J_Awb.so"],
 		},
 	},
@@ -82,7 +82,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common.so"],
 		},
 	},
@@ -99,7 +99,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_b.so"],
 		},
 	},
@@ -116,7 +116,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common_1080p_s.so"],
 		},
 	},
@@ -133,7 +133,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common_res0.so"],
 		},
 	},
@@ -150,7 +150,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common_res1.so"],
 		},
 	},
@@ -167,7 +167,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common_res2.so"],
 		},
 	},
@@ -184,7 +184,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_common_res3.so"],
 		},
 	},
@@ -201,7 +201,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_default_video.so"],
 		},
 	},
@@ -218,7 +218,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_golfshot.so"],
 		},
 	},
@@ -235,7 +235,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_hfr_1080p_b.so"],
 		},
 	},
@@ -252,7 +252,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_hfr_1080p_s.so"],
 		},
 	},
@@ -269,7 +269,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_hfr_120.so"],
 		},
 	},
@@ -286,7 +286,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_liveshot.so"],
 		},
 	},
@@ -303,7 +303,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_pip.so"],
 		},
 	},
@@ -320,7 +320,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_preview.so"],
 		},
 	},
@@ -337,7 +337,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_snapshot.so"],
 		},
 	},
@@ -354,7 +354,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_uhd_video.so"],
 		},
 	},
@@ -371,7 +371,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt.so"],
 		},
 	},
@@ -388,7 +388,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_vt_hd.so"],
 		},
 	},
@@ -405,7 +405,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QL_libchromatix_s5k3l2xx_zslshot.so"],
 		},
 	},
@@ -422,7 +422,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libTsAe.so"],
 		},
 	},
@@ -439,7 +439,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libTsAf.so"],
 		},
 	},
@@ -456,7 +456,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libTs_J_Accm.so"],
 		},
 	},
@@ -473,7 +473,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libTs_J_Awb.so"],
 		},
 	},
@@ -490,7 +490,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common.so"],
 		},
 	},
@@ -507,7 +507,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common_1080p_b.so"],
 		},
 	},
@@ -524,7 +524,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common_1080p_s.so"],
 		},
 	},
@@ -541,7 +541,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common_res0.so"],
 		},
 	},
@@ -558,7 +558,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common_res1.so"],
 		},
 	},
@@ -575,7 +575,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common_res2.so"],
 		},
 	},
@@ -592,7 +592,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_common_res3.so"],
 		},
 	},
@@ -609,7 +609,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_default_video.so"],
 		},
 	},
@@ -626,7 +626,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_golfshot.so"],
 		},
 	},
@@ -643,7 +643,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_hfr_1080p_b.so"],
 		},
 	},
@@ -660,7 +660,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_hfr_1080p_s.so"],
 		},
 	},
@@ -677,7 +677,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_hfr_120.so"],
 		},
 	},
@@ -694,7 +694,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_liveshot.so"],
 		},
 	},
@@ -711,7 +711,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_pip.so"],
 		},
 	},
@@ -728,7 +728,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_preview.so"],
 		},
 	},
@@ -745,7 +745,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_snapshot.so"],
 		},
 	},
@@ -762,7 +762,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_uhd_video.so"],
 		},
 	},
@@ -779,7 +779,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_vt.so"],
 		},
 	},
@@ -796,7 +796,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_vt_hd.so"],
 		},
 	},
@@ -813,7 +813,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/C13QS_libchromatix_imx135_zslshot.so"],
 		},
 	},
@@ -830,7 +830,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QL_libTsAe.so"],
 		},
 	},
@@ -847,7 +847,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QL_libTsAf.so"],
 		},
 	},
@@ -864,7 +864,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QL_libTs_J_Accm.so"],
 		},
 	},
@@ -881,7 +881,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QL_libTs_J_Awb.so"],
 		},
 	},
@@ -898,7 +898,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt.so"],
 		},
 	},
@@ -915,7 +915,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QL_libchromatix_s5k3l2xx_vt_hd.so"],
 		},
 	},
@@ -932,7 +932,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libTsAe.so"],
 		},
 	},
@@ -949,7 +949,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libTsAf.so"],
 		},
 	},
@@ -966,7 +966,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libTs_J_Accm.so"],
 		},
 	},
@@ -983,7 +983,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libTs_J_Awb.so"],
 		},
 	},
@@ -1000,7 +1000,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common.so"],
 		},
 	},
@@ -1017,7 +1017,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common_1080p_b.so"],
 		},
 	},
@@ -1034,7 +1034,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common_1080p_s.so"],
 		},
 	},
@@ -1051,7 +1051,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common_res0.so"],
 		},
 	},
@@ -1068,7 +1068,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common_res1.so"],
 		},
 	},
@@ -1085,7 +1085,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common_res2.so"],
 		},
 	},
@@ -1102,7 +1102,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_common_res3.so"],
 		},
 	},
@@ -1119,7 +1119,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_default_video.so"],
 		},
 	},
@@ -1136,7 +1136,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_golfshot.so"],
 		},
 	},
@@ -1153,7 +1153,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_hfr_1080p_b.so"],
 		},
 	},
@@ -1170,7 +1170,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_hfr_1080p_s.so"],
 		},
 	},
@@ -1187,7 +1187,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_hfr_120.so"],
 		},
 	},
@@ -1204,7 +1204,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_liveshot.so"],
 		},
 	},
@@ -1221,7 +1221,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_pip.so"],
 		},
 	},
@@ -1238,7 +1238,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_preview.so"],
 		},
 	},
@@ -1255,7 +1255,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_snapshot.so"],
 		},
 	},
@@ -1272,7 +1272,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_uhd_video.so"],
 		},
 	},
@@ -1289,7 +1289,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_vt.so"],
 		},
 	},
@@ -1306,7 +1306,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_vt_hd.so"],
 		},
 	},
@@ -1323,7 +1323,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/D13QS_libchromatix_imx135_zslshot.so"],
 		},
 	},
@@ -1340,7 +1340,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/egl/eglsubAndroid.so"],
 		},
 	},
@@ -1358,7 +1358,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
 		},
 	},
@@ -1376,7 +1376,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
 		},
 	},
@@ -1394,7 +1394,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
 		},
 	},
@@ -1412,7 +1412,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
 		},
 	},
@@ -1430,7 +1430,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/hw/camera.vendor.msm8974.so"],
 		},
 	},
@@ -1448,7 +1448,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/hw/flp.default.so"],
 		},
 	},
@@ -1466,7 +1466,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/hw/sensors.vendor.msm8974.so"],
 		},
 	},
@@ -1484,7 +1484,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libC2D2.so"],
 		},
 	},
@@ -1501,7 +1501,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libCB.so"],
 		},
 	},
@@ -1518,7 +1518,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxAacDec.so"],
 		},
 	},
@@ -1535,7 +1535,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxAmrwbplusDec.so"],
 		},
 	},
@@ -1552,7 +1552,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxEvrcDec.so"],
 		},
 	},
@@ -1569,7 +1569,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxQcelp13Dec.so"],
 		},
 	},
@@ -1586,7 +1586,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOmxWmaDec.so"],
 		},
 	},
@@ -1603,7 +1603,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libOpenCL.so"],
 		},
 	},
@@ -1620,7 +1620,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libQSEEComAPI.so"],
 		},
 	},
@@ -1637,7 +1637,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libTsAe.so"],
 		},
 	},
@@ -1654,7 +1654,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libTsAf.so"],
 		},
 	},
@@ -1671,7 +1671,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libTs_J_Accm.so"],
 		},
 	},
@@ -1688,7 +1688,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libTs_J_Awb.so"],
 		},
 	},
@@ -1705,7 +1705,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libacdbloader.so"],
 		},
 	},
@@ -1722,7 +1722,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libacdbrtac.so"],
 		},
 	},
@@ -1739,7 +1739,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_ak7345_camcorder.so"],
 		},
 	},
@@ -1756,7 +1756,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_ak7345_camera.so"],
 		},
 	},
@@ -1773,7 +1773,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_dw9714_camcorder.so"],
 		},
 	},
@@ -1790,7 +1790,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_dw9714_camera.so"],
 		},
 	},
@@ -1807,7 +1807,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_dw9716_camcorder.so"],
 		},
 	},
@@ -1824,7 +1824,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_dw9716_camera.so"],
 		},
 	},
@@ -1841,7 +1841,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_wv560_camcorder.so"],
 		},
 	},
@@ -1858,7 +1858,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libactuator_wv560_camera.so"],
 		},
 	},
@@ -1875,7 +1875,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libadiertac.so"],
 		},
 	},
@@ -1892,7 +1892,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
 		},
 	},
@@ -1909,7 +1909,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libadsprpc.so"],
 		},
 	},
@@ -1926,7 +1926,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libarcsoft_nighthawk.so"],
 		},
 	},
@@ -1943,7 +1943,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libaudcal.so"],
 		},
 	},
@@ -1960,7 +1960,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libbccQTI.so"],
 		},
 	},
@@ -1977,7 +1977,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libc2d30-a3xx.so"],
 		},
 	},
@@ -1994,7 +1994,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common.so"],
 		},
 	},
@@ -2011,7 +2011,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common_720p_b.so"],
 		},
 	},
@@ -2028,7 +2028,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common_720p_s.so"],
 		},
 	},
@@ -2045,7 +2045,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common_res0.so"],
 		},
 	},
@@ -2062,7 +2062,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common_res1.so"],
 		},
 	},
@@ -2079,7 +2079,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common_res2.so"],
 		},
 	},
@@ -2096,7 +2096,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_common_res3.so"],
 		},
 	},
@@ -2113,7 +2113,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_default_video.so"],
 		},
 	},
@@ -2130,7 +2130,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_golfshot.so"],
 		},
 	},
@@ -2147,7 +2147,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_hfr_120.so"],
 		},
 	},
@@ -2164,7 +2164,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_hfr_60.so"],
 		},
 	},
@@ -2181,7 +2181,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_hfr_720p_b.so"],
 		},
 	},
@@ -2198,7 +2198,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_hfr_720p_s.so"],
 		},
 	},
@@ -2215,7 +2215,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_liveshot.so"],
 		},
 	},
@@ -2232,7 +2232,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_pip.so"],
 		},
 	},
@@ -2249,7 +2249,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_preview.so"],
 		},
 	},
@@ -2266,7 +2266,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_snapshot.so"],
 		},
 	},
@@ -2283,7 +2283,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_vt.so"],
 		},
 	},
@@ -2300,7 +2300,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_vt_hd.so"],
 		},
 	},
@@ -2317,7 +2317,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx134_zslshot.so"],
 		},
 	},
@@ -2334,7 +2334,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common.so"],
 		},
 	},
@@ -2351,7 +2351,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common_1080p_b.so"],
 		},
 	},
@@ -2368,7 +2368,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common_1080p_s.so"],
 		},
 	},
@@ -2385,7 +2385,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common_res0.so"],
 		},
 	},
@@ -2402,7 +2402,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common_res1.so"],
 		},
 	},
@@ -2419,7 +2419,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common_res2.so"],
 		},
 	},
@@ -2436,7 +2436,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_common_res3.so"],
 		},
 	},
@@ -2453,7 +2453,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_default_video.so"],
 		},
 	},
@@ -2470,7 +2470,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_golfshot.so"],
 		},
 	},
@@ -2487,7 +2487,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_hfr_1080p_b.so"],
 		},
 	},
@@ -2504,7 +2504,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_hfr_1080p_s.so"],
 		},
 	},
@@ -2521,7 +2521,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_hfr_120.so"],
 		},
 	},
@@ -2538,7 +2538,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_liveshot.so"],
 		},
 	},
@@ -2555,7 +2555,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_pip.so"],
 		},
 	},
@@ -2572,7 +2572,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_preview.so"],
 		},
 	},
@@ -2589,7 +2589,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_snapshot.so"],
 		},
 	},
@@ -2606,7 +2606,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_uhd_video.so"],
 		},
 	},
@@ -2623,7 +2623,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_vt.so"],
 		},
 	},
@@ -2640,7 +2640,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_vt_hd.so"],
 		},
 	},
@@ -2657,7 +2657,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_imx135_zslshot.so"],
 		},
 	},
@@ -2674,7 +2674,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common.so"],
 		},
 	},
@@ -2691,7 +2691,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common_1080p_b.so"],
 		},
 	},
@@ -2708,7 +2708,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common_1080p_s.so"],
 		},
 	},
@@ -2725,7 +2725,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res0.so"],
 		},
 	},
@@ -2742,7 +2742,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res1.so"],
 		},
 	},
@@ -2759,7 +2759,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res2.so"],
 		},
 	},
@@ -2776,7 +2776,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_common_res3.so"],
 		},
 	},
@@ -2793,7 +2793,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_default_video.so"],
 		},
 	},
@@ -2810,7 +2810,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_golfshot.so"],
 		},
 	},
@@ -2827,7 +2827,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_hfr_1080p_b.so"],
 		},
 	},
@@ -2844,7 +2844,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_hfr_1080p_s.so"],
 		},
 	},
@@ -2861,7 +2861,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_hfr_120.so"],
 		},
 	},
@@ -2878,7 +2878,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_liveshot.so"],
 		},
 	},
@@ -2895,7 +2895,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_pip.so"],
 		},
 	},
@@ -2912,7 +2912,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_preview.so"],
 		},
 	},
@@ -2929,7 +2929,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_snapshot.so"],
 		},
 	},
@@ -2946,7 +2946,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_uhd_video.so"],
 		},
 	},
@@ -2963,7 +2963,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_vt.so"],
 		},
 	},
@@ -2980,7 +2980,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_vt_hd.so"],
 		},
 	},
@@ -2997,7 +2997,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k3l2xx_zslshot.so"],
 		},
 	},
@@ -3014,7 +3014,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_common.so"],
 		},
 	},
@@ -3031,7 +3031,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_default_video.so"],
 		},
 	},
@@ -3048,7 +3048,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_pip.so"],
 		},
 	},
@@ -3065,7 +3065,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_preview.so"],
 		},
 	},
@@ -3082,7 +3082,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_smart_stay.so"],
 		},
 	},
@@ -3099,7 +3099,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_vt.so"],
 		},
 	},
@@ -3116,7 +3116,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_vt_hd.so"],
 		},
 	},
@@ -3133,7 +3133,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libchromatix_s5k6b2yx_zslshot.so"],
 		},
 	},
@@ -3150,7 +3150,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libconfigdb.so"],
 		},
 	},
@@ -3167,7 +3167,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdiag.so"],
 		},
 	},
@@ -3184,7 +3184,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdrmdiag.so"],
 		},
 	},
@@ -3201,7 +3201,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdrmfs.so"],
 		},
 	},
@@ -3218,7 +3218,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdrmtime.so"],
 		},
 	},
@@ -3235,7 +3235,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
 		},
 	},
@@ -3252,7 +3252,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libdsutils.so"],
 		},
 	},
@@ -3269,7 +3269,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libfastcvadsp_stub.so"],
 		},
 	},
@@ -3286,7 +3286,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
 		},
 	},
@@ -3303,7 +3303,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libflp.so"],
 		},
 	},
@@ -3320,7 +3320,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libgeofence.so"],
 		},
 	},
@@ -3337,7 +3337,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libgsl.so"],
 		},
 	},
@@ -3354,7 +3354,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libidl.so"],
 		},
 	},
@@ -3371,7 +3371,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libizat_core.so"],
 		},
 	},
@@ -3388,7 +3388,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/liblbs_core.so"],
 		},
 	},
@@ -3405,7 +3405,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libliveframework.so"],
 		},
 	},
@@ -3422,7 +3422,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libllvm-qcom.so"],
 		},
 	},
@@ -3439,7 +3439,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libloc_api_v02.so"],
 		},
 	},
@@ -3456,7 +3456,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libloc_ds_api.so"],
 		},
 	},
@@ -3473,7 +3473,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmdmdetect.so"],
 		},
 	},
@@ -3490,7 +3490,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_c2d_module.so"],
 		},
 	},
@@ -3507,7 +3507,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_cpp_module.so"],
 		},
 	},
@@ -3524,7 +3524,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_iface_modules.so"],
 		},
 	},
@@ -3541,7 +3541,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_imglib_modules.so"],
 		},
 	},
@@ -3558,7 +3558,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_isp_modules.so"],
 		},
 	},
@@ -3575,7 +3575,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_pproc_modules.so"],
 		},
 	},
@@ -3592,7 +3592,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_sensor_modules.so"],
 		},
 	},
@@ -3609,7 +3609,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_algorithm.so"],
 		},
 	},
@@ -3626,7 +3626,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_stats_modules.so"],
 		},
 	},
@@ -3643,7 +3643,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_vpe_module.so"],
 		},
 	},
@@ -3660,7 +3660,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera2_wnr_module.so"],
 		},
 	},
@@ -3677,7 +3677,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_cac2_lib.so"],
 		},
 	},
@@ -3694,7 +3694,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_faceproc.so"],
 		},
 	},
@@ -3711,7 +3711,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_fidelix_eeprom.so"],
 		},
 	},
@@ -3728,7 +3728,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_image_stab.so"],
 		},
 	},
@@ -3745,7 +3745,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_imglib.so"],
 		},
 	},
@@ -3762,7 +3762,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_imx135.so"],
 		},
 	},
@@ -3779,7 +3779,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_interface.so"],
 		},
 	},
@@ -3796,7 +3796,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmcamera_s5k6b2yx.so"],
 		},
 	},
@@ -3813,7 +3813,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmjpeg.so"],
 		},
 	},
@@ -3830,7 +3830,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmjpeg_interface.so"],
 		},
 	},
@@ -3847,7 +3847,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libmmqjpeg_codec.so"],
 		},
 	},
@@ -3864,7 +3864,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libnetmgr.so"],
 		},
 	},
@@ -3881,7 +3881,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/liboemcamera.so"],
 		},
 	},
@@ -3898,7 +3898,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libperipheral_client.so"],
 		},
 	},
@@ -3915,7 +3915,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqcci_legacy.so"],
 		},
 	},
@@ -3932,7 +3932,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqdi.so"],
 		},
 	},
@@ -3949,7 +3949,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi.so"],
 		},
 	},
@@ -3966,7 +3966,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
 		},
 	},
@@ -3983,7 +3983,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_client_qmux.so"],
 		},
 	},
@@ -4000,7 +4000,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
 		},
 	},
@@ -4017,7 +4017,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_csi.so"],
 		},
 	},
@@ -4034,7 +4034,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmi_encdec.so"],
 		},
 	},
@@ -4051,7 +4051,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqmiservices.so"],
 		},
 	},
@@ -4068,7 +4068,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqomx_core.so"],
 		},
 	},
@@ -4085,7 +4085,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libqomx_jpegenc.so"],
 		},
 	},
@@ -4102,7 +4102,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libril-qcril-hook-oem.so"],
 		},
 	},
@@ -4119,7 +4119,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/librpmb.so"],
 		},
 	},
@@ -4136,7 +4136,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libsam.so"],
 		},
 	},
@@ -4153,7 +4153,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libsc-a3xx.so"],
 		},
 	},
@@ -4170,7 +4170,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libscale.so"],
 		},
 	},
@@ -4187,7 +4187,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libsec-ril.so"],
 		},
 	},
@@ -4204,7 +4204,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libsensirion_ks01_eur.so"],
 		},
 	},
@@ -4221,7 +4221,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libsensor1.so"],
 		},
 	},
@@ -4238,7 +4238,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libssd.so"],
 		},
 	},
@@ -4255,7 +4255,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libstlport.so"],
 		},
 	},
@@ -4272,7 +4272,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
 		},
 	},
@@ -4289,7 +4289,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libthermalioctl.so"],
 		},
 	},
@@ -4306,7 +4306,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
 		},
 	},
@@ -4323,7 +4323,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libvdis.so"],
 		},
 	},
@@ -4340,7 +4340,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/libxml.so"],
 		},
 	},
@@ -4357,7 +4357,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/vendor/lib/mediadrm/libwvdrmengine.so"],
 		},
 	},
@@ -4375,7 +4375,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/system_ext/lib/libaptXHD_encoder.so"],
 		},
 	},
@@ -4392,7 +4392,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
+		: {
 			srcs: ["proprietary/system_ext/lib/libaptX_encoder.so"],
 		},
 	},
@@ -4402,207 +4402,99 @@ cc_prebuilt_library_shared {
 	system_ext_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "adsprpcd",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/adsprpcd"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/adsprpcd",
+	filename: "adsprpcd",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "efsks",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/efsks"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/efsks",
+	filename: "efsks",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "irsc_util",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/irsc_util"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/irsc_util",
+	filename: "irsc_util",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "ks",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/ks"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/ks",
+	filename: "ks",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "mm-qcamera-daemon",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/mm-qcamera-daemon"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/mm-qcamera-daemon",
+	filename: "mm-qcamera-daemon",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "mpdecision",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/mpdecision"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/mpdecision",
+	filename: "mpdecision",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "qcks",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/qcks"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/qcks",
+	filename: "qcks",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "qmuxd",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/qmuxd"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/qmuxd",
+	filename: "qmuxd",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "qseecomd",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/qseecomd"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/qseecomd",
+	filename: "qseecomd",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "rfs_access",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/rfs_access"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/rfs_access",
+	filename: "rfs_access",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "rmt_storage",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/rmt_storage"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/rmt_storage",
+	filename: "rmt_storage",
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
+sh_binary {
 	name: "thermal-engine",
 	owner: "samsung",
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/bin/thermal-engine"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
+	src: "proprietary/vendor/bin/thermal-engine",
+	filename: "thermal-engine",
 	soc_specific: true,
 }
 
