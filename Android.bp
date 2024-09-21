@@ -4411,26 +4411,10 @@ sh_binary {
 }
 
 sh_binary {
-	name: "efsks",
-	owner: "samsung",
-	src: "proprietary/vendor/bin/efsks",
-	filename: "efsks",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "irsc_util",
 	owner: "samsung",
 	src: "proprietary/vendor/bin/irsc_util",
 	filename: "irsc_util",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "ks",
-	owner: "samsung",
-	src: "proprietary/vendor/bin/ks",
-	filename: "ks",
 	soc_specific: true,
 }
 
@@ -4447,14 +4431,6 @@ sh_binary {
 	owner: "samsung",
 	src: "proprietary/vendor/bin/mpdecision",
 	filename: "mpdecision",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "qcks",
-	owner: "samsung",
-	src: "proprietary/vendor/bin/qcks",
-	filename: "qcks",
 	soc_specific: true,
 }
 

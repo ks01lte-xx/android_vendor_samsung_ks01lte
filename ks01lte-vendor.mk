@@ -300,12 +300,9 @@ PRODUCT_PACKAGES += \
     libaptXHD_encoder \
     libaptX_encoder \
     adsprpcd \
-    efsks \
     irsc_util \
-    ks \
     mm-qcamera-daemon \
     mpdecision \
-    qcks \
     qmuxd \
     qseecomd \
     rfs_access \
